@@ -1,9 +1,23 @@
+/* General styles */
 body {
-    font-family: 'Montserrat';
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff; /* Adjust text color for better readability */
 }
+
+/* Ensure other sections with white background are updated for readability */
+.section {
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background for readability */
+    color: #333; /* Adjust text color for readability */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 header {
     background-color: #333;
